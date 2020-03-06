@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.site
+{
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 9%;
+}
+
+h1,p
+{
+	text-aligment: center;
+}
+
+img
+{
+	text-aligment: center;
+}
+
+@media only screen and (max-device-width: 600px)
+{
+    .site
+	{
+        padding-top: 15%;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+	.site img
+    {
+        width: 300px; 
+        height: 300px;
+    }
+}
