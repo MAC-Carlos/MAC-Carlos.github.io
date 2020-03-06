@@ -20,7 +20,7 @@ img
 @media only screen and (max-device-width: 600px)
 {
     .site
-	{
+    {
         padding-top: 15%;
         font-size: 50px;
         text-align: center;
