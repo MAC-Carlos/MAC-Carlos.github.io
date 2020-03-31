@@ -1,34 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
-.site
-{
-	width: 60%;
-	margin: 0 auto;
-	padding-top: 9%;
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	height: 100%;
 }
 
-h1,p
-{
-	text-aligment: center;
+body {
+	background: url('images/waves.svg') no-repeat;
+	background-size: cover;
 }
 
-img
-{
-	text-aligment: center;
+.main {
+	margin-left: 10%;
+	margin-top: 15%;
+	margin-right: 50%;
 }
 
-@media only screen and (max-device-width: 600px)
-{
-    .site
-    {
-        padding-top: 5%;
-        font-size: 50px;
-        text-align: center;
-    }
-    
-	.site img
-    {
-        width: 300px; 
-        height: 300px;
-    }
+.text {
+
+}
+
+button {
+	margin: 0;
+	font-size: 12pt;
+	position: relative;
+  	border: none;
+  	cursor: pointer;
+  	padding: 10px 30px 10px 30px;
+  	border-radius: 20px;
+  	display: inline-block;
+  	color: white;
+	background-color: #65adff;
+	margin-right: 5%;
+}
+
+h1 {
+	font-size: 24pt;
+	padding-bottom: 20px;
+}
+
+p	{
+	color: gray;
+	font-size: 16pt;
+	padding-bottom: 20px;
 }
