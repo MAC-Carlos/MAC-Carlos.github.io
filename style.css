@@ -63,7 +63,7 @@ p	{
 	padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 1000px) {
 	body {
 		font-family: 'Roboto Condensed', sans-serif;
 		margin: 0;
@@ -96,8 +96,8 @@ p	{
 
 	.buttons li{
 	  	display: inline-block;
-		margin-left: 150px;
-		margin-right: 20%;
+		margin-left: 125px;
+		margin-right: 125px;
 	  	list-style: none;
 		display: inline;
 	}
