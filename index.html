@@ -3,22 +3,39 @@
 <html>
 	<head>
 		<title>Carlos</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
         <div class="main">
-            <div class="text">
+
                 <h1>Carlos Eduardo Martins de Queiroz</h1>
 
-                <p>Site para divulgação de Carlos Eduardo Martins de Queiroz,
-			       aluno de Matemática Aplicada Computacional na Universidade
-			       Estadual do Centro Oeste (UNICENTRO) campus CEDETEG.</p>
-            </div>
+                <p>Aluno de Matemática Aplicada Computacional na Universidade
+			       Estadual do Centro Oeste (UNICENTRO) campus CEDETEG. </p>
 
             <div class="buttons">
-                <button type="button" name="github">Contato</button>
+                <ul>
+                    <button onclick="myFunction()">Copiar endereço de e-mail
+                        <i class="far fa-clone"></i>
+                    </button>
+                    <li><a class="social" href="https://www.github.com"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="social" href="https://www.github.com"><i class="fab fa-github"></i></a></li>
+                    <li><a class="social" href="https://www.github.com"><i class="fab fa-gitlab"></i></a></li>
+                </ul>
             </div>
         </div>
 	</body>
 </html>
+
+<script>
+function myFunction() {
+    var text = "mat.carlosqueiroz@gmail.com";
+    navigator.clipboard.writeText(text).then(function() {
+        console.log('Async: Copying to clipboard was successful!');
+    }, function(err) {
+        console.error('Async: Could not copy text: ', err);
+    });
+}
+</script>
