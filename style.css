@@ -10,6 +10,7 @@ body {
 
 ul {
 	margin: 0;
+	margin-left: 300px;
 	padding: 0;
 	position: absolute;
 }
@@ -71,13 +72,17 @@ p	{
 		background: url('images/waves-mobile.svg') no-repeat;
 		background-size: cover;
 	}
+
 	.main {margin: 0; width: 100%; height: 100%;}
+
 	h1 {margin-left: 5%; margin-top: 25%; margin-right: 5%; font-size: 64pt;}
+
 	p {margin-left: 5%; margin-top: 5%; margin-right: 5%; color: gray; font-size: 62pt; padding-bottom: 20px;}
-	button {width: 100%;
+
+	button {
+		width: 100%;
 		position: fixed;
 		bottom: 0;
-		display: block;
 		font-size: 36pt;
 		margin: 0;
 	  	border: 0;
@@ -90,14 +95,15 @@ p	{
 
 	ul {
 		margin: 0;
-		padding: 0;
-		position: absolute;
+		margin-bottom: 400px;
+		position: relative;
 	}
 
 	.buttons li{
 	  	display: inline-block;
 		margin-left: 125px;
 		margin-right: 125px;
+		margin-bottom: 50px;
 	  	list-style: none;
 		display: inline;
 	}
