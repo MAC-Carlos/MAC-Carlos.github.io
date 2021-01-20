@@ -1,42 +1,43 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
-<html>
-	<head>
-		<title>Carlos Queiroz</title>
-        <link rel="icon" href="images/icon.svg">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-		<link rel="stylesheet" href="style.css">
-	</head>
+<style>
+  h1 {
+    font-size: 42px;
+  }
 
-	<body>
-        <div class="main">
+  .content {
+    text-align: center;
+    margin: auto;
+    padding: 27vh 0;
+  }
 
-                <h1>Carlos Eduardo Martins de Queiroz</h1>
+  p {font-size: 18px;}
+</style>
 
-                <p>Aluno de Matemática Aplicada Computacional na Universidade
-			       Estadual do Centro Oeste (UNICENTRO) campus CEDETEG. </p>
+<head>
+  <title>Sobre mim | Carlos Queiroz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
 
-            <div class="buttons">
-                <ul>
-                    <li><a class="social" href="https://br.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a class="social" href="https://github.com/MAC-Carlos" target="_blank"><i class="fab fa-github"></i></a></li>
-                    <li><a class="social" href="https://gitlab.com/Carlos-Queiroz" target="_blank"><i class="fab fa-gitlab"></i></a></li>
-                </ul>
-                <button onclick="myFunction()">Copiar endereço de e-mail
-                    <i class="far fa-clone"></i>
-                </button>
-            </div>
-        </div>
-	</body>
-</html>
+<body>
+  <nav>
+    <ul>
+      <li><a href="">SOBRE MIM</a></li>
+      <li><a href="portfolio.html">PORTFÓLIO</a></li>
+    </ul>
+  </nav>
 
-<script>
-function myFunction() {
-    var text = "mat.carlosqueiroz@gmail.com";
-    navigator.clipboard.writeText(text).then(function() {
-        console.log('Async: Copying to clipboard was successful!');
-    }, function(err) {
-        console.error('Async: Could not copy text: ', err);
-    });
-}
-</script>
+  <div class="content">
+    <h1>Carlos Eduardo Martins de Queiroz</h1>
+    <p>Estudante de Matemática Aplicada Computacional na Universidade Estadual do Centro Oeste.</p>
+  </div>
+
+  <footer>
+    MAT.carlosqueiroz@gmail.com
+    <ul>
+      <li><a href="https://github.com/MAC-Carlos">GitHub</a></li>
+      <li><a href="https://github.com/MAC-Carlos/MAC-Carlos.github.io">Souce-Code</a></li>
+    </ul>
+  </footer>
+</body>
